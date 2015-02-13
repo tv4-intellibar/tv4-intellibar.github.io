@@ -73,7 +73,7 @@ window.intellibar = (function () {
   });
 
   $('body').css({'padding-bottom':225}).append($bar).scroll
-  setBar('demography', 'iframe');
+  setBar('demography', 'doubleIframe');
   console.log('### TV4 IntelliBar loaded! ###')
 
 })();
