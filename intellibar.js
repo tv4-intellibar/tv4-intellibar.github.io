@@ -16,7 +16,7 @@ window.intellibar = (function () {
   });
   $bar.html('<div id="intellibar">'+
               '<div id="barmenu-wrapper">'+
-                '<img src="'+BASE_URL+'/tv4logo_red.png" id="logo" />'+
+                '<img src="'+BASE_URL+'/tv4play.png" id="logo" />'+
                 '<ul id="barmenu">'+
                   '<li id="reach_visits" data-type="iframe">Räckvidd och besök</li>'+
                   '<li id="demography" data-type="doubleIframe">Demografi</li>'+
@@ -40,7 +40,7 @@ window.intellibar = (function () {
                     first: 'https://docs.google.com/a/burtcorp.com/spreadsheets/d/1tisxpbbyciDxifWw1QAtki0-uSMfKRvlXhw6uoUTahc/pubchart?oid=1177234689&format=interactive',
                     second: 'https://docs.google.com/spreadsheets/d/1tisxpbbyciDxifWw1QAtki0-uSMfKRvlXhw6uoUTahc/pubchart?oid=1346713540&format=interactive'
                   },
-      day_time: 'http://safe-bastion-9677.herokuapp.com/'
+      day_time: 'https://safe-bastion-9677.herokuapp.com/'
     }
 
     var iframeTpl = '<iframe src="'+contentSrc[id]+'" style="display:none" class="content bar-iframe" /></iframe>';
